@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c0a06d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: left;
+    color: #0c1434;
+    margin-top: 50px;
+    font-family: "Bell MT, serif";
+    font-size: 24pt;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.new_ftr_cls{
+    background-color: #0c1434;
+    color: #fff;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: "Bell MT, serif";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1001; /* Increased from default to 1001 */
+}
+
+.p_cls{
+    font-size: 14pt;
+    font-family: "Bell MT, serif";
+    font-weight: bold;
+    color: #0c1434;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.button_change{
+    text-align: right;
+    position: relative;
+    z-index: 1000;
+}
+
+.btn_css_cls{
+    display: flow;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1000;
+    background-color: #a4ce7b;
+    color: #fff;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: "Bell MT, serif";
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#back {
+    display: inline-block;
+    margin-left: 50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent #000;
+    transform: rotate(180deg);
+}
+
+

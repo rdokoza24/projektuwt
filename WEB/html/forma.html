@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Web Stranica</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Moja Web Stranica</h1>
+    <p>Ovo je moja projektna web stranica koja ima responzivan dizajn.</p>
+</header>
+
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="rezultat.html">Rezultat</a></li>
+        <li><a href="forma.html">Forma</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="onama.html">O nama</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <div class="main">
+        <form action="rezultat.html" method="get">
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime" required>
+
+            <label for="destinacija">Omiljena destinacija:</label>
+            <select id="destinacija" name="destinacija" required>
+                <option>Dubrovnik</option>
+                <option>Split</option>
+                <option>Zagreb</option>
+                <option>Rijeka</option>
+                <option>Osijek</option>
+            </select>
+
+            <p>Jeste li već putovali u Hrvatsku?</p>
+            <input type="radio" id="da" name="putovao" value="Da" required>
+            <label for="da">Da</label><br>
+            <input type="radio" id="ne" name="putovao" value="Ne">
+            <label for="ne">Ne</label><br><br>
+
+            <p>Koje regije ste posjetili?</p>
+            <input type="checkbox" id="dalmacija" name="regije" value="Dalmacija">
+            <label for="dalmacija">Dalmacija</label><br>
+
+            <input type="checkbox" id="istra" name="regije" value="Istra">
+            <label for="istra">Istra</label><br>
+
+            <input type="checkbox" id="slavonija" name="regije" value="Slavonija">
+            <label for="slavonija">Slavonija</label><br><br>
+
+            <input type="submit" value="Pošalji">
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Roko Dokoza</p>
+</footer>
+
+</body>
+</html>

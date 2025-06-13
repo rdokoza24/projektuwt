@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #464443;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: left;
+    color: #a4ce7b;
+    margin-top: 50px;
+    font-family: "Bell MT, serif";
+    font-size: 24pt;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.new_ftr_cls{
+    background-color: #890606;
+    color: #fff;
+    padding: 10px;
+    font-size: 12pt;
+    font-family: "Bell MT, serif";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.p_cls{
+    font-size: 14pt;
+    font-family: "Bell MT, serif";
+    font-weight: bold;
+    color: #c93d3d;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}

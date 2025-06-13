@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some simple web form</title>
+    <link id="simpleFormCss" type="text/css" rel="stylesheet" href="simple_form.css">
+    <script type="text/javascript" src="simple_form_code.js"></script>
+</head>
+<body>
+<h1>Simple web form</h1>
+<hr>
+&nbsp;
+<div class="div_table">
+    <table class="table">
+        <tr>
+            <th>User name:</th>
+            <th><input title="Please enter an user name..." id="user_name_field" type="text" value="" ></th>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <th><input title="Please enter a password..." id="password_field" type="password" value="" ></th>
+        </tr>
+        <tr>
+            <th>Confirm password:</th>
+            <th><input title="Please confirm the password..." id="confirm_password_field" type="password" value="" ></th>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <th><input title="Please enter an email..." id="email_field" type="email" value="" ></th>
+        </tr>
+        <tr>
+            <th>Choose year of study:</th>
+            <th>
+                <select class="choices" title="Please choose a year of study..." id="year_of_study_field">
+                    <option value="none" selected disabled>Choose a year...</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </th>
+        </tr>
+        <tr class="empty_row"> </tr>
+        <tr>
+            <th></th>
+            <th class="submit_cls"> <input  class="submit_btn" type="submit" value="Submit" onclick="submitFormData()"> </th>
+
+        </tr>
+    </table>
+</div>
+<hr>
+
+<div class="div_data">
+    <p id="form_data_p"> </p>
+</div>
+<footer class="footer_cls">
+    <p style="align-content: center">&copy; SIT-2024</p>
+</footer>
+</body>
+</html>

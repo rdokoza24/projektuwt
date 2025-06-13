@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple web form</title>
+    <link rel="stylesheet" href="base.css" type="text/css">
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+<h1>Simple web form</h1>
+<hr>
+
+<div class="table_container">
+    <table class="table_cls">
+        <tr>
+            <th><label>Name: </label></th>
+            <th><input type="text" value="" id="name"></th>
+        </tr>
+        <tr>
+            <th><label>Mail: </label></th>
+            <th><input type="text" value="" id="mail"></th>
+        </tr>
+        <tr>
+            <th style="text-align: left">Choose city:</th>
+            <th>
+                <select class="choices" title="Please choose a city..." id="city_choice">
+                    <option value="none" selected disabled>Choose a city...</option>
+                    <option value="Vukovar">Vukovar</option>
+                    <option value="Zadar">Zadar</option>
+                    <option value="Split">Split</option>
+                    <option value="Zagreb">Zagreb</option>
+                </select>
+            </th>
+        </tr>
+        <tr class="empty_row"></tr>
+        <tr>
+            <th></th><th><label> <input name="Choice 1" type="checkbox" id="ch1" value="Program 1">Program 1</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="Choice 2" type="checkbox" id="ch2" value="Program 2">Program 2</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="Choice 3" type="checkbox" id="ch3" value="Program 3">Program 3</label></th>
+        </tr>
+        <tr>
+            <th><label>Select online service:</label></th><th></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="service" id="rad1" type="radio"  value="Service 1" checked>Service 1</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="service" id="rad2" type="radio"  value="Service 2">Service 2</label></th>
+        </tr>
+        <tr class="empty_row"></tr>
+        <tr>
+            <th></th><th><button class="btn_cls" id="submit_btn" onclick="submit_data()">Submit</button></th>
+        </tr>
+    </table>
+</div>
+<footer class = "footer_cls">
+    <p>Created by &rarr; @SIT 2024 </p></footer>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Primjena localStorage-a za prijenos podataka na drugu html stranicu.

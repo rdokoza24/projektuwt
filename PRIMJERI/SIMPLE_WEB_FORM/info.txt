@@ -1,0 +1,1 @@
+Primjer jednostavne web forme s JS-om.

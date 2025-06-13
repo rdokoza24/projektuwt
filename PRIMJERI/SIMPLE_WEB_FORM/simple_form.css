@@ -1,0 +1,73 @@
+body{
+    background: #ae4343;
+    color: #d3e3e5;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 3px;
+}
+
+.footer_cls{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust this value according to your needs */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.div_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust this value according to your needs */
+    width: 50%;
+}
+
+.table {
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: auto; /* Adjust this value according to your needs */
+}
+
+.empty_row{
+    height: 20px;
+}
+
+.submit_cls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust this value according to your needs */
+    width: 70%;
+}
+
+.submit_btn{
+    background: #26266f;
+    color: white;
+    padding: 7px 11px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    height: auto;
+    opacity: 0.7;
+    font-style: oblique;
+    font-family: "Bell MT";
+    font-size: 24px;
+}
